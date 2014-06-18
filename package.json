@@ -1,6 +1,6 @@
 {
   "name": "pdfify",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Easily generate a PDF with style from a URL.",
   "main": "index.js",
   "bin": "bin/pdfify",
