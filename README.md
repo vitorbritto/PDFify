@@ -1,4 +1,4 @@
-# PDFify
+# PDFify [![NPM version](https://badge.fury.io/js/pdfify.svg)](http://badge.fury.io/js/pdfify) [![GitHub version](https://badge.fury.io/gh/vitorbritto%2Fpdfify.svg)](http://badge.fury.io/gh/vitorbritto%2Fpdfify)
 
 Easily generate a PDF with style from a URL.
 
