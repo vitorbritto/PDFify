@@ -20,13 +20,9 @@ $ [sudo] npm install pdfify -g
 $ pdfify <url> <filename>
 ```
 
-**Help:** use `pdfify --help` or `pdfify -h` for more details.
-
-**Example:**
-
-```
-$ pdfify http://www.vitorbritto.com.br vitorbritto
-```
+- **Help:** use `pdfify --help` or `pdfify -h` for more details.
+- **Example:** `pdfify http://www.vitorbritto.com.br vitorbritto`
+- **Generated PDF:** PDF files will be saved inside `.pdfify` directory in your user path.
 
 
 ## Contribute
