@@ -1,0 +1,55 @@
+#!/usr/bin/env node
+
+'use strict';
+
+// =====================================================
+// CONFIGURATION
+// =====================================================
+
+var logger = require('simlog'),
+    help   = require('simhelp'),
+    pkg    = require('../package'),
+    input  = process.argv.slice(1),
+    isH    = process.argv.indexOf('-h') !== -1 || process.argv.indexOf('--help') !== -1,
+    isV    = process.argv.indexOf('-v') !== -1 || process.argv.indexOf('--version') !== -1;
+
+
+// =====================================================
+// PROGRAM INFORMATION
+// =====================================================
+
+var pnm   = pkg.name,
+    ver   = pkg.version,
+    desc  = pkg.description,
+    aut   = pkg.author.name,
+    lic   = pkg.license,
+    cmd   = '<url> <filename>';
+
+
+// =====================================================
+// CLI
+// =====================================================
+
+if (isH) {
+    help
+        .main(pnm, ver, desc, cmd)
+        .head('Options:')
+        .option('h', 'help', 'output help message')
+        .option('v', 'version', 'output the version number')
+        .details(aut, lic);
+
+    process.exit();
+}
+
+if (isV) {
+    console.log('PDFify: %s', ver);
+    process.exit();
+}
+
+if (input.length > 0) {
+    if (true) {
+        module.exports = require('../lib');
+    } else {
+        logger.error('Can\'t run PDFify.');
+    }
+}
