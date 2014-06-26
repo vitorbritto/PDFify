@@ -1,8 +1,8 @@
 # PDFify [![NPM version](https://badge.fury.io/js/pdfify.svg)](http://badge.fury.io/js/pdfify) [![GitHub version](https://badge.fury.io/gh/vitorbritto%2Fpdfify.svg)](http://badge.fury.io/gh/vitorbritto%2Fpdfify)
 
-Easily generate a PDF with style from a URL.
+[![NPM](https://nodei.co/npm/pdfify.png?downloads=true)](https://nodei.co/npm/pdfify/)
 
-**Note:** tested on _Mac_ only.
+Easily generate a PDF with style from a URL.
 
 
 ## Install
